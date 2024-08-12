@@ -1,0 +1,112 @@
+{
+  "editor.fontFamily": "JetBrains Mono",
+  "tabnine.experimentalAutoImports": true,
+  "editor.linkedEditing": true,
+  "vscode-edge-devtools.webhint": false,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "explorer.confirmDelete": false,
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "editor.renderWhitespace": "all",
+  "explorer.confirmDragAndDrop": false,
+  "workbench.startupEditor": "none",
+  "git.enableSmartCommit": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "editor.inlineSuggest.showToolbar": "always",
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "typescript.format.enable": false,
+  "editor.accessibilitySupport": "off",
+  "git.autofetch": true,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "extensions.autoUpdate": "onlyEnabledExtensions",
+  "editor.bracketPairColorization.enabled": true,
+  "terminal.integrated.automationProfile.windows": {},
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.copyOnSelection": true,
+  "terminal.integrated.fontFamily": "JetBrains Mono",
+  "terminal.integrated.ignoreProcessNames": ["bash"],
+  "terminal.integrated.lineHeight": 1.2,
+  "git.confirmSync": false,
+  "settingsSync.ignoredExtensions": [],
+  "editor.codeActionsOnSave": {},
+  "[scss]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "workbench.productIconTheme": "icons-carbon",
+  "terminal.integrated.tabs.defaultColor": "terminal.ansiYellow",
+  "editor.minimap.autohide": true,
+  "editor.minimap.maxColumn": 100,
+  "editor.minimap.scale": 2,
+  "terminal.integrated.defaultProfile.linux": "",
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.allowMnemonics": true,
+  "gitTreeCompare.showCheckboxes": false,
+  "gitTreeCompare.diffMode": "full",
+  "github.copilot.chat.welcomeMessage": "never",
+  "prettier.configPath": ".prettierrc.json",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.smoothScrolling": true,
+  "terminal.integrated.smoothScrolling": true,
+  "editor.cursorBlinking": "smooth",
+  "workbench.list.smoothScrolling": true,
+  "symbols.hidesExplorerArrows": false,
+  "editor.guides.bracketPairs": "active",
+  "diffEditor.ignoreTrimWhitespace": true,
+  "diffEditor.experimental.showMoves": true,
+  "workbench.sideBar.location": "right",
+  "workbench.colorTheme": "Tokyo Night",
+  "workbench.activityBar.location": "top",
+  "path-intellisense.mappings": {},
+  "path-intellisense.autoSlashAfterDirectory": true,
+  "github.copilot.advanced": {},
+  "github.copilot.editor.enableAutoCompletions": true,
+  "editor.minimap.renderCharacters": false,
+  "workbench.editor.wrapTabs": true,
+  "workbench.editor.highlightModifiedTabs": true,
+  "editor.experimentalInlineEdit.backgroundColoring": true,
+  "github.copilot.chat.scopeSelection": true,
+  "github.copilot.chat.localeOverride": "en",
+  "git-graph.contextMenuActionsVisibility": {},
+  "settingsSync.ignoredSettings": [],
+  "diffEditor.renderSideBySide": true,
+  "diffEditor.hideUnchangedRegions.enabled": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnPaste": true,
+  "editor.minimap.size": "fit",
+  "files.autoSave": "onFocusChange",
+  "vim.autoSwitchInputMethod.enable": true,
+  "vim.cursorStylePerMode.insert": "line",
+  "vim.cursorStylePerMode.normal": "block",
+  "vim.cursorStylePerMode.replace": "block-outline",
+  "vim.cursorStylePerMode.visual": "underline",
+  "githubPullRequests.pushBranch": "always",
+  "terminal.integrated.accessibleViewPreserveCursorPosition": true,
+  "editor.formatOnSave": true,
+  "workbench.iconTheme": "bearded-icons",
+}
