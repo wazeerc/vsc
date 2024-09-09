@@ -1,6 +1,3 @@
-// Add to the .vscode folder in the root of your project
-// This file is used to recommend extensions to users when they open the project in Visual Studio Code
-// Open the recommended extensions by clicking on the "Recommended" tab in the Extensions view
 {
   "recommendations": [
     "aaron-bond.better-comments",
@@ -42,6 +39,7 @@
     "ms-vscode.powershell",
     "ms-vscode.vscode-typescript-next",
     "msjsdiag.vscode-react-native",
+    "mylesmurphy.prettify-ts",
     "naumovs.color-highlight",
     "ritwickdey.liveserver",
     "sirtori.indenticator",
