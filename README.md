@@ -3,7 +3,7 @@
 ### Import VSCode Settings
 
 1. Copy the contents of `settings.json`.
-2. Open VS Code and press `Ctrl + Shift + P`, then type **"Preferences: Open Settings (JSON)"**.
+2. Open VS Code, press `Ctrl + Shift + P`, then type **"Preferences: Open Settings (JSON)"** and press Enter.
 3. Press `Ctrl + A` to select all, and `Ctrl + V` to paste and overwrite the current settings.
 
 ### Install Recommended Extensions
