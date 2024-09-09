@@ -77,10 +77,10 @@
   "workbench.list.smoothScrolling": true,
   "symbols.hidesExplorerArrows": false,
   "editor.guides.bracketPairs": "active",
-  "diffEditor.ignoreTrimWhitespace": true,
+  "diffEditor.ignoreTrimWhitespace": false,
   "diffEditor.experimental.showMoves": true,
   "workbench.sideBar.location": "right",
-  "workbench.colorTheme": "Tokyo Night",
+  "workbench.colorTheme": "Tokyo Night Storm",
   "workbench.activityBar.location": "top",
   "path-intellisense.mappings": {},
   "path-intellisense.autoSlashAfterDirectory": true,
@@ -107,6 +107,7 @@
   "vim.cursorStylePerMode.visual": "underline",
   "githubPullRequests.pushBranch": "always",
   "terminal.integrated.accessibleViewPreserveCursorPosition": true,
-  "editor.formatOnSave": true,
-  "workbench.iconTheme": "bearded-icons",
+  "workbench.iconTheme": "eq-material-theme-icons-light",
+  "material-icon-theme.hidesExplorerArrows": true,
+  "editor.formatOnSave": true
 }
