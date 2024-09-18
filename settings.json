@@ -109,5 +109,6 @@
   "terminal.integrated.accessibleViewPreserveCursorPosition": true,
   "workbench.iconTheme": "eq-material-theme-icons-light",
   "material-icon-theme.hidesExplorerArrows": true,
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  "editor.rulers": [100],
 }
