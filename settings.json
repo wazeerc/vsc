@@ -111,4 +111,6 @@
   "material-icon-theme.hidesExplorerArrows": true,
   "editor.formatOnSave": true,
   "editor.rulers": [100],
+  "editor.fontSize": 14,
+  "editor.fontLigatures": true
 }
