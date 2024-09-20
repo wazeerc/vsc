@@ -112,5 +112,21 @@
   "editor.formatOnSave": true,
   "editor.rulers": [100],
   "editor.fontSize": 14,
-  "editor.fontLigatures": true
+  "editor.fontLigatures": true,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": ["comment.line"],
+        "settings": {
+          "fontStyle": "underline"
+        }
+      },
+      {
+        "scope": ["keyword.control", "comment.block.documentation"],
+        "settings": {
+          "fontStyle": "bold"
+        }
+      }
+    ]
+  }
 }
