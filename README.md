@@ -10,12 +10,11 @@
 
 ### Install Recommended Extensions
 
-#### Prerequisite: Create `.vscode` folder if it doesn't exist
-Before proceeding, ensure the `.vscode` folder is present at the root of your project. If it doesn't exist, create it:
-
-```bash
-mkdir -p .vscode
-```
+> [!IMPORTANT]
+> Before proceeding, ensure the `.vscode` folder is present at the root of your project. If it doesn't exist, create it:
+>```bash
+>mkdir -p .vscode
+>```
 
 #### Option 1: Manual Installation
 
