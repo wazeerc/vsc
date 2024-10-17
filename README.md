@@ -23,7 +23,7 @@
 3. Open the **Extensions** tab and type **@recommended** in the search bar.
 4. Install the desired recommended extension(s) from the list.
 
-#### Option 2: Automated Installation via PowerShell
+#### Option 2: Automated Installation via 🔵 PowerShell
 
 1. Add `extensions.json` to the `.vscode` folder at the root of your project.
 2. Open a Powershell terminal.
@@ -32,7 +32,7 @@
    ```pwsh
    (Get-Content .vscode/extensions.json | ConvertFrom-Json).recommendations | ForEach-Object { code --install-extension $_ }
 
-#### Option 3: Automated Installation via Bash
+#### Option 3: Automated Installation via 🟢 Bash
 
 1. Add `extensions.json` to the `.vscode` folder at the root of your project.
 2. Open a Bash terminal.
