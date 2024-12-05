@@ -36,7 +36,7 @@
 	"Vue 3 Component Template": {
 		"prefix": "vue",
 		"body": [
-			"<script setup lang=\"ts\">",
+			"<script lang=\"ts\">",
 			"$1",
 			"</script>",
 			"",
