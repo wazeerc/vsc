@@ -122,7 +122,8 @@
   },
   // Language-specific settings
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "typescript.format.enable": false,
+  "typescript.format.enable": true,
+  "typescript.preferences.quoteStyle": "double",
   "typescript.updateImportsOnFileMove.enabled": "always",
   "scss.format.enable": false,
   // File Explorer
@@ -173,9 +174,11 @@
   "vim.cursorStylePerMode.replace": "block-outline",
   "vim.cursorStylePerMode.visual": "underline",
   // Vue
-  "html.format.wrapAttributes": "force-expand-multiline",
+  "eslint.validate": ["ts", "vue"],
+  "html.format.wrapAttributes": "force-aligned",
   "vue.complete.casing.props": "autoCamel",
   "vue.splitEditors.icon": true,
   "vue.format.style.initialIndent": true,
-  "vue.format.script.initialIndent": true
+  "vue.format.script.initialIndent": true,
+  "vue.server.includeLanguages": ["vue", "typescript"]
 }
