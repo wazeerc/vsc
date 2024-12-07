@@ -1,118 +1,31 @@
 {
-  "editor.fontFamily": "JetBrains Mono",
-  "tabnine.experimentalAutoImports": true,
-  "editor.linkedEditing": true,
-  "vscode-edge-devtools.webhint": false,
-  "liveServer.settings.donotShowInfoMsg": true,
-  "[html]": {
-    "editor.defaultFormatter": "vscode.html-language-features"
-  },
-  "[css]": {
-    "editor.defaultFormatter": "vscode.css-language-features"
-  },
-  "explorer.confirmDelete": false,
-  "terminal.integrated.enableMultiLinePasteWarning": false,
-  "editor.renderWhitespace": "all",
-  "explorer.confirmDragAndDrop": false,
-  "workbench.startupEditor": "none",
-  "git.enableSmartCommit": true,
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "emmet.includeLanguages": {
-    "javascript": "javascriptreact"
-  },
-  "editor.inlineSuggest.showToolbar": "always",
-  "[javascriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "typescript.format.enable": false,
-  "editor.accessibilitySupport": "off",
-  "git.autofetch": true,
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "typescript.updateImportsOnFileMove.enabled": "always",
-  "extensions.autoUpdate": "onlyEnabledExtensions",
-  "editor.bracketPairColorization.enabled": true,
-  "terminal.integrated.automationProfile.windows": {},
-  "terminal.integrated.cursorBlinking": true,
-  "terminal.integrated.cursorStyle": "line",
-  "terminal.integrated.copyOnSelection": true,
-  "terminal.integrated.fontFamily": "JetBrains Mono",
-  "terminal.integrated.ignoreProcessNames": ["bash"],
-  "terminal.integrated.lineHeight": 1.2,
-  "git.confirmSync": false,
-  "settingsSync.ignoredExtensions": [],
-  "editor.codeActionsOnSave": {},
-  "[scss]": {
-    "editor.defaultFormatter": "vscode.css-language-features"
-  },
-  "workbench.productIconTheme": "icons-carbon",
-  "terminal.integrated.tabs.defaultColor": "terminal.ansiYellow",
-  "editor.minimap.autohide": true,
-  "editor.minimap.maxColumn": 100,
-  "editor.minimap.scale": 2,
-  "terminal.integrated.defaultProfile.linux": "",
-  "terminal.integrated.defaultProfile.windows": "PowerShell",
-  "terminal.integrated.allowMnemonics": true,
-  "gitTreeCompare.showCheckboxes": false,
-  "gitTreeCompare.diffMode": "full",
-  "github.copilot.chat.welcomeMessage": "never",
-  "prettier.configPath": ".prettierrc.json",
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "editor.cursorSmoothCaretAnimation": "on",
-  "editor.smoothScrolling": true,
-  "terminal.integrated.smoothScrolling": true,
-  "editor.cursorBlinking": "smooth",
-  "workbench.list.smoothScrolling": true,
-  "symbols.hidesExplorerArrows": false,
-  "editor.guides.bracketPairs": "active",
-  "diffEditor.ignoreTrimWhitespace": false,
-  "diffEditor.experimental.showMoves": true,
-  "workbench.sideBar.location": "right",
-  "workbench.colorTheme": "Tokyo Night Storm",
-  "workbench.activityBar.location": "top",
-  "path-intellisense.mappings": {},
-  "path-intellisense.autoSlashAfterDirectory": true,
-  "github.copilot.advanced": {},
-  "github.copilot.editor.enableAutoCompletions": true,
-  "editor.minimap.renderCharacters": false,
-  "workbench.editor.wrapTabs": true,
-  "workbench.editor.highlightModifiedTabs": true,
-  "editor.experimentalInlineEdit.backgroundColoring": true,
-  "github.copilot.chat.scopeSelection": true,
-  "github.copilot.chat.localeOverride": "en",
-  "git-graph.contextMenuActionsVisibility": {},
-  "settingsSync.ignoredSettings": [],
-  "diffEditor.renderSideBySide": true,
-  "diffEditor.hideUnchangedRegions.enabled": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnPaste": true,
-  "editor.minimap.size": "fit",
-  "files.autoSave": "onFocusChange",
-  "vim.autoSwitchInputMethod.enable": true,
-  "vim.cursorStylePerMode.insert": "line",
-  "vim.cursorStylePerMode.normal": "block",
-  "vim.cursorStylePerMode.replace": "block-outline",
-  "vim.cursorStylePerMode.visual": "underline",
-  "githubPullRequests.pushBranch": "always",
-  "terminal.integrated.accessibleViewPreserveCursorPosition": true,
-  "workbench.iconTheme": "eq-material-theme-icons-light",
-  "material-icon-theme.hidesExplorerArrows": true,
-  "editor.formatOnSave": true,
-  "editor.rulers": [100],
+  // Editor General
+  "editor.fontFamily": "JetBrainsMono NF",
   "editor.fontSize": 14,
   "editor.fontLigatures": true,
+  "editor.linkedEditing": true,
+  "editor.renderWhitespace": "trailing",
+  "editor.inlineSuggest.showToolbar": "always",
+  "editor.accessibilitySupport": "off",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.codeActionsOnSave": {
+    "source.addMissingImports.ts": "explicit",
+    "source.sortImports": "explicit"
+  },
+  "editor.minimap.autohide": true,
+  "editor.minimap.maxColumn": 50,
+  "editor.minimap.scale": 2,
+  "editor.minimap.renderCharacters": false,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.smoothScrolling": true,
+  "editor.cursorBlinking": "expand",
+  "editor.guides.bracketPairs": "active",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnPaste": true,
+  "editor.rulers": [100],
+  "editor.tabSize": 2,
+  "editor.stickyTabStops": true,
+  "editor.formatOnSave": true,
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
@@ -128,5 +41,141 @@
         }
       }
     ]
-  }
+  },
+  // Terminal Configuration
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.copyOnSelection": true,
+  "terminal.integrated.fontFamily": "JetBrains Mono",
+  "terminal.integrated.ignoreProcessNames": ["bash"],
+  "terminal.integrated.lineHeight": 1.2,
+  "terminal.integrated.tabs.defaultColor": "terminal.ansiYellow",
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.allowMnemonics": true,
+  "terminal.integrated.smoothScrolling": true,
+  "terminal.integrated.accessibleViewPreserveCursorPosition": true,
+  // Git and GitHub
+  "git.enableSmartCommit": true,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.openRepositoryInParentFolders": "never",
+  "github.copilot.chat.welcomeMessage": "never",
+  "github.copilot.chat.scopeSelection": true,
+  "github.copilot.chat.localeOverride": "en",
+  "github.copilot.advanced": {},
+  "github.copilot.editor.enableAutoCompletions": true,
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "typescript": true
+  },
+  "githubPullRequests.pushBranch": "always",
+  "gitlens.advanced.messages": {
+    "suppressLineUncommittedWarning": true
+  },
+  // Language-specific formatters
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "[snippets]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[markdown]": {
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": true,
+      "strings": true
+    },
+    "editor.defaultFormatter": "mervin.markdown-formatter"
+  },
+  "[powershell]": {
+    "editor.defaultFormatter": "ms-vscode.powershell"
+  },
+  "[astro]": {
+    "editor.defaultFormatter": "astro-build.astro-vscode"
+  },
+  "[go]": {
+    "editor.defaultFormatter": "golang.go"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "Vue.volar"
+  },
+  // Language-specific settings
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.format.enable": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "scss.format.enable": false,
+  // File Explorer
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  // Workbench
+  "workbench.startupEditor": "none",
+  "workbench.productIconTheme": "icons-carbon",
+  "workbench.sideBar.location": "right",
+  "workbench.colorTheme": "Tokyo Night Storm",
+  "workbench.activityBar.location": "top",
+  "workbench.editor.wrapTabs": true,
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.list.smoothScrolling": true,
+  "workbench.iconTheme": "eq-material-theme-icons-light",
+  "workbench.panel.showLabels": false,
+  "workbench.editor.scrollToSwitchTabs": true,
+  // Extensions and misc
+  "liveServer.settings.donotShowInfoMsg": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "vue-html": "html"
+  },
+  "extensions.autoUpdate": "onlyEnabledExtensions",
+  "settingsSync.ignoredExtensions": [],
+  "settingsSync.ignoredSettings": [],
+  "symbols.hidesExplorerArrows": true,
+  "path-intellisense.mappings": {},
+  "path-intellisense.autoSlashAfterDirectory": false,
+  "excalidraw.language": "en",
+  "excalidraw.theme": "dark",
+  "redhat.telemetry.enabled": false,
+  "diffEditor.hideUnchangedRegions.enabled": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "diffEditor.experimental.showMoves": true,
+  "diffEditor.renderSideBySide": true,
+  "material-icon-theme.hidesExplorerArrows": true,
+  "files.autoSave": "onFocusChange",
+  "window.customTitleBarVisibility": "auto",
+  "chat.editing.alwaysSaveWithGeneratedChanges": true,
+  "totalTypeScript.hideAllTips": false,
+  "totalTypeScript.hideBasicTips": true,
+  "prettier.configPath": ".prettierrc.json",
+  // Vim
+  "vim.autoSwitchInputMethod.enable": true,
+  "vim.cursorStylePerMode.insert": "line",
+  "vim.cursorStylePerMode.normal": "block",
+  "vim.cursorStylePerMode.replace": "block-outline",
+  "vim.cursorStylePerMode.visual": "underline",
+  // Vue
+  "html.format.wrapAttributes": "force-expand-multiline",
+  "vue.complete.casing.props": "autoCamel",
+  "vue.splitEditors.icon": true,
+  "vue.format.style.initialIndent": true,
+  "vue.format.script.initialIndent": true
 }
