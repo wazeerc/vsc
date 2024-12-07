@@ -2,5 +2,9 @@
   {
     "key": "ctrl+alt+w",
     "command": "editor.emmet.action.wrapWithAbbreviation"
+  },
+  {
+    "key": "alt+v",
+    "command": "toggleVim"
   }
 ]
