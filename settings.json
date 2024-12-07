@@ -121,7 +121,9 @@
     "editor.defaultFormatter": "Vue.volar"
   },
   // Language-specific settings
+  "js/ts.implicitProjectConfig.target": "ESNext",
   "javascript.updateImportsOnFileMove.enabled": "always",
+  "javascript.format.semicolons": "insert",
   "typescript.format.enable": true,
   "typescript.preferences.quoteStyle": "double",
   "typescript.updateImportsOnFileMove.enabled": "always",
@@ -174,10 +176,11 @@
   "vim.cursorStylePerMode.replace": "block-outline",
   "vim.cursorStylePerMode.visual": "underline",
   // Vue
-  "eslint.validate": ["ts", "vue"],
+  "eslint.validate": ["ts", "vue", "html"],
+  "html.format.enable": true,
+  "html.autoClosingTags": true,
   "html.format.wrapAttributes": "force-aligned",
   "vue.complete.casing.props": "autoCamel",
-  "vue.splitEditors.icon": true,
   "vue.format.style.initialIndent": true,
   "vue.format.script.initialIndent": true,
   "vue.server.includeLanguages": ["vue", "typescript"]
