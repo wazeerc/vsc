@@ -91,7 +91,6 @@
   "git.autofetch": true,
   "git.confirmSync": false,
   "git.openRepositoryInParentFolders": "never",
-  "github.copilot.chat.welcomeMessage": "never",
   "github.copilot.chat.scopeSelection": true,
   "github.copilot.chat.localeOverride": "en",
   "github.copilot.advanced": {},
@@ -102,7 +101,6 @@
     "markdown": false,
     "typescript": true
   },
-  "githubPullRequests.pushBranch": "always",
   "gitlens.advanced.messages": {
     "suppressLineUncommittedWarning": true
   },
@@ -137,7 +135,7 @@
       "comments": true,
       "strings": true
     },
-    "editor.defaultFormatter": "mervin.markdown-formatter"
+    "editor.defaultFormatter": "tehnix.vscode-tidymarkdown"
   },
   "[powershell]": {
     "editor.defaultFormatter": "ms-vscode.powershell"
@@ -174,16 +172,16 @@
   "explorer.confirmDragAndDrop": false,
   // Workbench
   "workbench.startupEditor": "none",
-  "workbench.productIconTheme": "icons-carbon",
   "workbench.sideBar.location": "right",
   "workbench.colorTheme": "Tokyo Night Storm",
   "workbench.activityBar.location": "top",
   "workbench.editor.wrapTabs": true,
   "workbench.editor.highlightModifiedTabs": true,
   "workbench.list.smoothScrolling": true,
-  "workbench.iconTheme": "eq-material-theme-icons-light",
   "workbench.panel.showLabels": false,
   "workbench.editor.scrollToSwitchTabs": true,
+  "workbench.iconTheme": "bearded-icons",
+  "workbench.productIconTheme": "fluent-icons",
   // Extensions and misc
   "liveServer.settings.donotShowInfoMsg": true,
   "emmet.includeLanguages": {
@@ -193,22 +191,18 @@
   "extensions.autoUpdate": "onlyEnabledExtensions",
   "settingsSync.ignoredExtensions": [],
   "settingsSync.ignoredSettings": [],
-  "symbols.hidesExplorerArrows": true,
   "path-intellisense.mappings": {},
   "path-intellisense.autoSlashAfterDirectory": false,
   "excalidraw.language": "en",
   "excalidraw.theme": "dark",
-  "redhat.telemetry.enabled": false,
   "diffEditor.hideUnchangedRegions.enabled": true,
   "diffEditor.ignoreTrimWhitespace": false,
   "diffEditor.experimental.showMoves": true,
   "diffEditor.renderSideBySide": true,
-  "material-icon-theme.hidesExplorerArrows": true,
   "files.autoSave": "onFocusChange",
+  "files.trimTrailingWhitespace": true,
   "window.customTitleBarVisibility": "auto",
   "chat.editing.alwaysSaveWithGeneratedChanges": true,
-  "totalTypeScript.hideAllTips": false,
-  "totalTypeScript.hideBasicTips": true,
   "prettier.configPath": ".prettierrc.json",
   // Vim
   "vim.autoSwitchInputMethod.enable": true,
