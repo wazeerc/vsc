@@ -180,8 +180,8 @@
   "workbench.list.smoothScrolling": true,
   "workbench.panel.showLabels": false,
   "workbench.editor.scrollToSwitchTabs": true,
-  "workbench.iconTheme": "bearded-icons",
-  "workbench.productIconTheme": "fluent-icons",
+  "workbench.iconTheme": "symbols",
+  "workbench.productIconTheme": "icons-carbon",
   // Extensions and misc
   "liveServer.settings.donotShowInfoMsg": true,
   "emmet.includeLanguages": {
