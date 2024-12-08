@@ -74,7 +74,7 @@
   "breadcrumbs.showVariables": false,
   "breadcrumbs.icons": false,
   // Terminal Configuration
-  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "terminal.integrated.enableMultiLinePasteWarning": "auto",
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.copyOnSelection": true,
@@ -181,7 +181,7 @@
   "workbench.panel.showLabels": false,
   "workbench.editor.scrollToSwitchTabs": true,
   "workbench.iconTheme": "symbols",
-  "workbench.productIconTheme": "icons-carbon"
+  "workbench.productIconTheme": "icons-carbon",
   // Extensions and misc
   "liveServer.settings.donotShowInfoMsg": true,
   "emmet.includeLanguages": {
