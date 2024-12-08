@@ -23,6 +23,8 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnPaste": true,
   "editor.rulers": [100],
+  "editor.wordWrapColumn": 100,
+  "editor.wordWrap": "bounded",
   "editor.tabSize": 2,
   "editor.stickyTabStops": true,
   "editor.formatOnSave": true,
