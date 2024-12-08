@@ -10,7 +10,7 @@
   "editor.bracketPairColorization.enabled": true,
   "editor.codeActionsOnSave": {
     "source.addMissingImports.ts": "explicit",
-    "source.sortImports": "explicit"
+    "source.sortImports": "never"
   },
   "editor.minimap.autohide": true,
   "editor.minimap.maxColumn": 50,
