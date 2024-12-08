@@ -121,13 +121,18 @@
     "editor.defaultFormatter": "Vue.volar"
   },
   // Language-specific settings
+  "html.format.enable": true,
+  "html.autoClosingTags": true,
+  "html.format.wrapAttributes": "force-aligned",
   "js/ts.implicitProjectConfig.target": "ESNext",
   "javascript.updateImportsOnFileMove.enabled": "always",
   "javascript.format.semicolons": "insert",
   "typescript.format.enable": true,
   "typescript.preferences.quoteStyle": "double",
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "scss.format.enable": false,
+  "typescript.format.semicolons": "insert",
+  "css.format.enable": true,
+  "scss.format.enable": true,
   // File Explorer
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
@@ -177,9 +182,6 @@
   "vim.cursorStylePerMode.visual": "underline",
   // Vue
   "eslint.validate": ["ts", "vue", "html"],
-  "html.format.enable": true,
-  "html.autoClosingTags": true,
-  "html.format.wrapAttributes": "force-aligned",
   "vue.complete.casing.props": "autoCamel",
   "vue.format.style.initialIndent": true,
   "vue.format.script.initialIndent": true,
