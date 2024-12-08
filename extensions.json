@@ -55,6 +55,7 @@
     "visualstudioexptteam.intellicode-api-usage-examples",
     "visualstudioexptteam.vscodeintellicode",
     "vscodevim.vim",
-    "waderyan.gitblame"
+    "waderyan.gitblame",
+    "yoavbls.pretty-ts-errors"
   ]
 }
