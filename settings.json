@@ -124,6 +124,10 @@
   "html.format.enable": true,
   "html.autoClosingTags": true,
   "html.format.wrapAttributes": "force-aligned",
+  "html.format.extraLiners": "",
+  "html.format.maxPreserveNewLines": 1,
+  "html.format.preserveNewLines": true,
+  "html.format.wrapLineLength": 100,
   "js/ts.implicitProjectConfig.target": "ESNext",
   "javascript.updateImportsOnFileMove.enabled": "always",
   "javascript.format.semicolons": "insert",
@@ -132,6 +136,7 @@
   "typescript.updateImportsOnFileMove.enabled": "always",
   "typescript.format.semicolons": "insert",
   "css.format.enable": true,
+  "css.format.preserveNewLines": false,
   "scss.format.enable": true,
   // File Explorer
   "explorer.confirmDelete": false,
