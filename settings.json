@@ -10,7 +10,7 @@
   "editor.bracketPairColorization.enabled": true,
   "editor.codeActionsOnSave": {
     "source.addMissingImports.ts": "explicit",
-    "source.sortImports": "never"
+    "source.sortImports": "explicit"
   },
   "editor.minimap.autohide": true,
   "editor.minimap.maxColumn": 50,
@@ -181,7 +181,7 @@
   "workbench.panel.showLabels": false,
   "workbench.editor.scrollToSwitchTabs": true,
   "workbench.iconTheme": "symbols",
-  "workbench.productIconTheme": "icons-carbon",
+  "workbench.productIconTheme": "icons-carbon"
   // Extensions and misc
   "liveServer.settings.donotShowInfoMsg": true,
   "emmet.includeLanguages": {
@@ -213,7 +213,7 @@
   // Vue
   "eslint.validate": ["ts", "vue", "html"],
   "vue.complete.casing.props": "autoCamel",
-  "vue.format.style.initialIndent": true,
-  "vue.format.script.initialIndent": true,
+  "vue.format.style.initialIndent": false,
+  "vue.format.script.initialIndent": false,
   "vue.server.includeLanguages": ["vue", "typescript"]
 }
