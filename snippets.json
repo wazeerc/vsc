@@ -36,7 +36,7 @@
 	"Vue 3 Component Template": {
 		"prefix": "vue",
 		"body": [
-			"<script lang=\"ts\">",
+			"<script setup lang=\"ts\">",
 			"$1",
 			"</script>",
 			"",
@@ -44,8 +44,10 @@
 			"\t<div>",
 			"\t\t$2",
 			"\t</div>",
-			"</template>"
+			"</template>",
+			"",
+			"<style scoped>$3</style>"
 		],
-		"description": "Vue 3 component template with TypeScript"
+		"description": "Vue 3 component template using Composition APi with TypeScript and scoped style"
 	}
 }
