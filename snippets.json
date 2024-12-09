@@ -34,7 +34,7 @@
 	},
 	// Vue Snippets:
 	"Vue 3 Component Template": {
-		"prefix": "vue",
+		"prefix": "vue3",
 		"body": [
 			"<script setup lang=\"ts\">",
 			"$1",
