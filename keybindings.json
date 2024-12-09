@@ -6,5 +6,19 @@
   {
     "key": "alt+v",
     "command": "toggleVim"
+  },
+  {
+    "key": "ctrl+alt+z",
+    "command": "workbench.action.toggleZenMode",
+    "when": "!isAuxiliaryWindowFocusedContext"
+  },
+  {
+    "key": "ctrl+k z",
+    "command": "-workbench.action.toggleZenMode",
+    "when": "!isAuxiliaryWindowFocusedContext"
+  },
+  {
+    "key": "ctrl+alt+c",
+    "command": "workbench.action.toggleCenteredLayout"
   }
 ]
