@@ -26,7 +26,10 @@
   "editor.wordWrapColumn": 100,
   "editor.wordWrap": "on",
   "editor.tabSize": 2,
+  "editor.padding.top": 2,
+  "editor.padding.bottom": 10,
   "editor.stickyTabStops": true,
+  "editor.scrollBeyondLastLine": false,
   "editor.formatOnSave": true,
   "editor.tokenColorCustomizations": {
     "textMateRules": [
@@ -170,16 +173,23 @@
   // File Explorer
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
+  "explorer.enableUndo": true,
+  "explorer.fileNesting.enabled": true,
   // Workbench
   "workbench.startupEditor": "none",
   "workbench.sideBar.location": "right",
   "workbench.colorTheme": "Tokyo Night Storm",
   "workbench.activityBar.location": "top",
+  "workbench.statusBar.visible": false,
+  "zenMode.fullScreen": true,
   "workbench.editor.wrapTabs": true,
   "workbench.editor.highlightModifiedTabs": true,
+  "workbench.editor.pinnedTabSizing": "shrink",
   "workbench.list.smoothScrolling": true,
   "workbench.panel.showLabels": false,
   "workbench.editor.scrollToSwitchTabs": true,
+  "workbench.tree.indent": 10,
+  "workbench.tree.renderIndentGuides": "onHover",
   "workbench.iconTheme": "symbols",
   "workbench.productIconTheme": "icons-carbon",
   // Extensions and misc
@@ -201,8 +211,10 @@
   "diffEditor.renderSideBySide": true,
   "files.autoSave": "onFocusChange",
   "files.trimTrailingWhitespace": true,
-  "window.customTitleBarVisibility": "auto",
+  "window.customTitleBarVisibility": "windowed",
+  "window.commandCenter": false,
   "chat.editing.alwaysSaveWithGeneratedChanges": true,
+  "chat.commandCenter.enabled": false,
   "prettier.configPath": ".prettierrc.json",
   // Vim
   "vim.autoSwitchInputMethod.enable": true,
