@@ -27,7 +27,7 @@
   "editor.wordWrap": "on",
   "editor.tabSize": 2,
   "editor.padding.top": 2,
-  "editor.padding.bottom": 10,
+  "editor.padding.bottom": 100,
   "editor.stickyTabStops": true,
   "editor.scrollBeyondLastLine": false,
   "editor.formatOnSave": true,
