@@ -20,5 +20,9 @@
   {
     "key": "ctrl+alt+c",
     "command": "workbench.action.toggleCenteredLayout"
+  },
+  {
+    "key": "ctrl+g ctrl+l",
+    "command": "git-graph.view"
   }
 ]
