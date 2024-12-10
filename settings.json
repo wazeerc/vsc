@@ -4,6 +4,7 @@
   "editor.fontSize": 14,
   "editor.fontLigatures": true,
   "editor.linkedEditing": true,
+  "editor.foldingHighlight": true,
   "editor.renderWhitespace": "trailing",
   "editor.inlineSuggest.showToolbar": "always",
   "editor.accessibilitySupport": "off",
