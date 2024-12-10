@@ -22,7 +22,7 @@
     "command": "workbench.action.toggleCenteredLayout"
   },
   {
-    "key": "ctrl+g ctrl+l",
+    "key": "ctrl+shift+g l",
     "command": "git-graph.view"
   }
 ]
