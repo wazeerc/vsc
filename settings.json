@@ -125,7 +125,8 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "Vue.volar",
+    "editor.formatOnSave": true
   },
   "[scss]": {
     "editor.defaultFormatter": "vscode.css-language-features"
@@ -221,6 +222,7 @@
   "chat.editing.alwaysSaveWithGeneratedChanges": true,
   "chat.commandCenter.enabled": false,
   "prettier.configPath": ".prettierrc.json",
+  "prettier.requireConfig": true,
   // Vim
   "vim.autoSwitchInputMethod.enable": true,
   "vim.cursorStylePerMode.insert": "line",
