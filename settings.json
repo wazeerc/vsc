@@ -218,7 +218,6 @@
   "window.newWindowDimensions": "inherit",
   "window.menuBarVisibility": "toggle",
   "window.customTitleBarVisibility": "windowed",
-  "window.commandCenter": false,
   "chat.editing.alwaysSaveWithGeneratedChanges": true,
   "chat.commandCenter.enabled": false,
   "prettier.configPath": ".prettierrc.json",
