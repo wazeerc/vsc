@@ -48,6 +48,13 @@
       }
     ]
   },
+  "explorer.fileNesting.patterns": {
+    "tsconfig.json": "tsconfig.*.json, env.d.ts",
+    "vite.config.*": "jsconfig*, vitest.config.*, cypress.config.*, playwright.config.*",
+    "package.json": "package-lock.json, pnpm*, .yarnrc*, yarn*, .eslint*, eslint*, .prettier*, prettier*, .editorconfig",
+    "dockerfile": ".dockerignore",
+    "tailwind.config.js": "postcss.config.js"
+  },
   // Breadcrumbs
   "breadcrumbs.enabled": true,
   "breadcrumbs.showFields": false,
@@ -100,9 +107,10 @@
   "github.copilot.advanced": {},
   "github.copilot.editor.enableAutoCompletions": true,
   "github.copilot.enable": {
-    "*": false,
+    "*": true,
     "plaintext": false,
     "markdown": false,
+    "scminput": false,
     "typescript": true
   },
   "gitlens.advanced.messages": {
@@ -114,6 +122,9 @@
   },
   "[css]": {
     "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "[dockerfile]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
   },
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -141,9 +152,6 @@
       "strings": true
     },
     "editor.defaultFormatter": "tehnix.vscode-tidymarkdown"
-  },
-  "[powershell]": {
-    "editor.defaultFormatter": "ms-vscode.powershell"
   },
   "[astro]": {
     "editor.defaultFormatter": "astro-build.astro-vscode"
@@ -235,4 +243,5 @@
   "vue.format.style.initialIndent": false,
   "vue.format.script.initialIndent": false,
   "vue.server.includeLanguages": ["vue", "typescript"]
+  // Others;
 }
