@@ -62,12 +62,4 @@
     "command": "-workbench.action.terminal.new",
     "when": "terminalProcessSupported || terminalWebExtensionContributedProfile"
   },
-  {
-    "key": "ctrl+tab ctrl+right",
-    "command": "workbench.action.splitEditorRight"
-  },
-  {
-    "key": "ctrl+k ctrl+\\",
-    "command": "-workbench.action.splitEditorRight"
-  }
 ]
