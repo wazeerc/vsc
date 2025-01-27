@@ -53,7 +53,7 @@
     "vite.config.*": "jsconfig*, vitest.config.*, cypress.config.*, playwright.config.*",
     "package.json": "package-lock.json, pnpm*, .yarnrc*, yarn*, .eslint*, eslint*, .prettier*, prettier*, .editorconfig",
     "dockerfile": ".dockerignore",
-    "tailwind.config.js": "postcss.config.js",
+    "tailwind.config.*": "postcss.config.*",
     "next.config.*": "next-env.d.*"
   },
   // Breadcrumbs
