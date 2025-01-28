@@ -21,7 +21,7 @@
 1. Add [extensions.json](https://github.com/wazeerc/vsc/blob/master/extensions.json) to the `.vscode` folder at the root of your project.
 2. This will recommend extensions when users open a project in VS Code.
 3. Open the **Extensions** tab and type **@recommended** in the search bar.
-4. Install the desired recommended extension(s) from the list.
+4. Install the desired recommended extension(s) from the list or install all of them (click on the cloud download icon).
 
 #### Option 2: Automated Installation via 🔵 PowerShell
 
