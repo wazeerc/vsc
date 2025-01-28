@@ -196,6 +196,8 @@
   "workbench.editor.wrapTabs": true,
   "workbench.editor.highlightModifiedTabs": true,
   "workbench.editor.pinnedTabSizing": "shrink",
+  "workbench.editor.editorActionsLocation": "titleBar"
+  "workbench.navigationControl.enabled": false,
   "workbench.list.smoothScrolling": true,
   "workbench.panel.showLabels": false,
   "workbench.editor.scrollToSwitchTabs": true,
