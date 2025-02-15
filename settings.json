@@ -245,6 +245,7 @@
   "vue.complete.casing.props": "autoCamel",
   "vue.format.style.initialIndent": false,
   "vue.format.script.initialIndent": false,
+  "vue.server.hybridMode": true,
   "vue.server.includeLanguages": ["vue", "typescript"]
   // Others;
 }
