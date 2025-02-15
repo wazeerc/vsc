@@ -52,7 +52,7 @@
     "tsconfig.json": "tsconfig.*.json, env.d.ts",
     "vite.config.*": "jsconfig*, vitest.config.*, cypress.config.*, playwright.config.*",
     "package.json": "package-lock.json, pnpm*, .yarnrc*, yarn*, .eslint*, eslint*, .prettier*, prettier*, .editorconfig",
-    "dockerfile": ".dockerignore",
+    "dockerfile": ".dockerignore, docker-*.yml, docker-*.yaml",
     "tailwind.config.*": "postcss.config.*",
     "next.config.*": "next-env.d.*"
   },
@@ -102,6 +102,7 @@
   "git.enableSmartCommit": true,
   "git.autofetch": true,
   "git.confirmSync": false,
+  "githubPullRequests.pushBranch": "always",
   "git.openRepositoryInParentFolders": "never",
   "github.copilot.chat.scopeSelection": true,
   "github.copilot.chat.localeOverride": "en",
@@ -196,8 +197,7 @@
   "workbench.editor.wrapTabs": true,
   "workbench.editor.highlightModifiedTabs": true,
   "workbench.editor.pinnedTabSizing": "shrink",
-  "workbench.editor.editorActionsLocation": "titleBar"
-  "workbench.navigationControl.enabled": false,
+  "workbench.editor.editorActionsLocation": "titleBar",
   "workbench.list.smoothScrolling": true,
   "workbench.panel.showLabels": false,
   "workbench.editor.scrollToSwitchTabs": true,
