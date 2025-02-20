@@ -52,7 +52,7 @@
     "tsconfig.json": "tsconfig.*.json, env.d.ts",
     "vite.config.*": "jsconfig*, vitest.config.*, cypress.config.*, playwright.config.*",
     "package.json": "package-lock.json, pnpm*, .yarnrc*, yarn*, .eslint*, eslint*, .prettier*, prettier*, .editorconfig",
-    "dockerfile": ".dockerignore, docker-*.yml, docker-*.yaml",
+    "dockerfile": ".dockerignore, docker-*.yml, docker-*.yaml, dockerfile.*",
     "tailwind.config.*": "postcss.config.*",
     "next.config.*": "next-env.d.*"
   },
