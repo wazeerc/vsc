@@ -227,7 +227,7 @@
   "files.trimTrailingWhitespace": true,
   "window.titleBarStyle": "custom",
   "window.titleSeparator": " • ",
-  "window.title": "${dirty}${rootName}${separator}${activeEditorShort}$",
+  "window.title": "${dirty}${rootName}${separator}${activeEditorShort}${separator}${activeRepositoryBranchName}",
   "window.newWindowDimensions": "inherit",
   "window.menuBarVisibility": "toggle",
   "window.customTitleBarVisibility": "windowed",
