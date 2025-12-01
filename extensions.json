@@ -50,6 +50,6 @@
     "vitest.explorer",
     "vue.volar",
     "waderyan.gitblame",
-    "wix.vscode-import-cost",
+    "wix.vscode-import-cost"
   ]
 }
