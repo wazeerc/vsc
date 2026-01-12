@@ -1,8 +1,7 @@
 # VSCode Settings and Extensions 🛠️
 
-### 🎨 Current themes rotation:
-- [Monospace Dark](https://marketplace.visualstudio.com/items?itemName=keksiqc.idx-monospace-theme)
-- [Bearded Theme Oceanic](https://marketplace.visualstudio.com/items/?itemName=BeardedBear.beardedtheme)
+### 🎨 Current theme
+- [Carbon](https://github.com/wazeerc/carbon)
 
 ### Import VSCode Settings
 
