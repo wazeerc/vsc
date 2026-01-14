@@ -62,4 +62,8 @@
     "command": "-workbench.action.terminal.new",
     "when": "terminalProcessSupported || terminalWebExtensionContributedProfile"
   },
+  {
+    "key": "z alt+down",
+    "command": "editor.action.duplicateSelection"
+  }
 ]
