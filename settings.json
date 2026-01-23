@@ -258,6 +258,7 @@
   // ========== UI / Misc ==========
   "chat.commandCenter.enabled": false,
   "chat.editing.confirmEditRequestRetry": false,
+  "chat.useNestedAgentsMdFiles": true,
   "excalidraw.language": "en",
   "excalidraw.theme": "dark"
 }
