@@ -150,6 +150,15 @@
   "github.copilot.nextEditSuggestions.enabled": true,
   "githubPullRequests.pullBranch": "never",
   "githubPullRequests.pushBranch": "always",
+  // ========== Copilot Chat ==========
+  "chat.agent.codeBlockProgress": true,
+  "chat.agent.thinkingStyle": "collapsed",
+  "chat.agent.thinking.generateTitles": true,
+  "chat.editing.confirmEditRequestRetry": false,
+  "chat.useAgentSkills": true,
+  "chat.useAgentsMdFile": true,
+  "chat.useNestedAgentsMdFiles": true,
+  "chat.viewSessions.orientation": "stacked",
   // ========== Extensions & Formatting ==========
   "emmet.includeLanguages": {
     "javascript": "javascriptreact",
@@ -256,9 +265,6 @@
   "telemetry.feedback.enabled": false,
   "telemetry.telemetryLevel": "off",
   // ========== UI / Misc ==========
-  "chat.commandCenter.enabled": false,
-  "chat.editing.confirmEditRequestRetry": false,
-  "chat.useNestedAgentsMdFiles": true,
   "excalidraw.language": "en",
   "excalidraw.theme": "dark"
 }
