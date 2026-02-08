@@ -63,7 +63,7 @@
     "when": "terminalProcessSupported || terminalWebExtensionContributedProfile"
   },
   {
-    "key": "z alt+down",
+    "key": "shift+alt+down",
     "command": "editor.action.duplicateSelection"
   }
 ]
