@@ -65,5 +65,15 @@
   {
     "key": "shift+alt+down",
     "command": "editor.action.duplicateSelection"
-  }
+  },
+  {
+    "key": "ctrl+alt+a .",
+    "command": "git.stageAll",
+    "when": "gitOpenRepositoryCount != 0"
+  },
+  {
+    "key": "ctrl+alt+s",
+    "command": "git.stashStaged",
+    "when": "gitOpenRepositoryCount != 0"
+  },
 ]
