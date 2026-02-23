@@ -141,6 +141,7 @@
   "terminal.integrated.tabs.defaultColor": "terminal.ansiYellow",
   // ========== Git & GitHub ==========
   "git.autofetch": true,
+  "git.blame.editorDecoration.enabled" : true,
   "git.confirmSync": false,
   "git.enableSmartCommit": true,
   "git.ignoreRebaseWarning": true,
