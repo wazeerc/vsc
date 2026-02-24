@@ -141,7 +141,8 @@
   "terminal.integrated.tabs.defaultColor": "terminal.ansiYellow",
   // ========== Git & GitHub ==========
   "git.autofetch": true,
-  "git.blame.editorDecoration.enabled" : true,
+  "git.blame.editorDecoration.enabled": true,
+  "git.blame.editorDecoration.template": "${subject} - ${authorName} (${authorDate})",
   "git.confirmSync": false,
   "git.enableSmartCommit": true,
   "git.ignoreRebaseWarning": true,
@@ -218,13 +219,11 @@
   "html.format.wrapAttributes": "force-aligned",
   "html.format.wrapLineLength": 100,
   "js/ts.implicitProjectConfig.target": "ESNext",
-  "javascript.format.semicolons": "insert",
-  "javascript.updateImportsOnFileMove.enabled": "always",
+  "js/ts.format.enabled": true,
+  "js/ts.format.semicolons": "insert",
+  "js/ts.preferences.quoteStyle": "double",
+  "js/ts.updateImportsOnFileMove.enabled": "always",
   "scss.format.enable": true,
-  "typescript.format.enable": true,
-  "typescript.format.semicolons": "insert",
-  "typescript.preferences.quoteStyle": "double",
-  "typescript.updateImportsOnFileMove.enabled": "always",
   // ========== Vue / Linting ==========
   "eslint.validate": [
     "ts",
